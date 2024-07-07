@@ -1,0 +1,274 @@
+{%extends 'base.html' %}
+ {% load static %}
+{%block body%}
+
+<!-- ======= Services Section ======= -->
+<main id="main" style="padding-top: 150px">
+    
+    <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+            ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+            quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+            Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+          <!-- <a href="service.html"> Find out more &raquo;</a> -->
+        </div>
+
+        <div class="services grid-container">
+          <div>
+            <img src="{% static 'img/services/service1.jpg' %} " id="service-image" />
+            <h4 class="title">
+              <a href="service.html">Cosmetic/Aesthetic</a>
+            </h4>
+            <a href="#" class="btn" id="read-more-button">Read More</a>
+            <p id="service-description" style="display: none">
+              At Swastik Dental, we specialize in cosmetic/aesthetic dentistry
+              services aimed at rejuvenating your smile and elevating your
+              self-assurance. Our array of treatments spans from professional
+              teeth whitening and porcelain veneers to discreet Invisalign®
+              clear aligners and durable dental implants.
+            </p>
+          </div>
+          <div>
+            <img src="{% static 'img/services/service2.jpg' %} " id="service-image" />
+            <h4 class="title">
+              <a href="service.html">Advanced Endodontics</a>
+            </h4>
+            <a href="#" class="btn" id="read-more-button"
+              >Read More</a
+            >
+            <p id="service-description" style="display: none">
+              Experience top-tier care in advanced endodontics at Swastik
+              Dental. Our skilled endodontists employ cutting-edge techniques
+              to address complex root canal issues with precision and
+              expertise. From root canal therapy to retreatment and apical
+              surgery, we offer comprehensive solutions to save your natural
+              teeth and alleviate discomfort.
+            </p>
+
+            <!-- <a href="#about" class="btn-get-started scrollto">Read More</a> -->
+          </div>
+          <div>
+            <img src="{% static 'img/services/service3.jpg' %} " id="service-image" />
+            <h4 class="title"><a href="service.html">Dental Implants</a></h4>
+            <a href="#" class="btn" id="read-more-button">Read More</a>
+            <p id="service-description" style="display: none">
+              Regain confidence in your smile with dental implants at Swastik
+              Dental. Our renowned implant specialists utilize
+              state-of-the-art technology to provide durable and lifelike
+              tooth replacements that function and feel like natural teeth.
+              Whether you need a single implant, implant-supported bridges, or
+              full-arch restorations, we offer personalized solutions tailored
+              to your unique needs.
+            </p>
+          </div>
+          <div>
+            <img src="{% static 'img/services/service4.jpg' %} " id="service-image" />
+            <h4 class="title">
+              <a href="service.html">Fixed Prosthodontics</a>
+            </h4>
+            <a href="#" class="btn" id="read-more-button"
+              >Read More</a
+            >
+            <p id="service-description" style="display: none">
+              Experience the pinnacle of fixed prosthodontics at Swastik
+              Dental. Our expert prosthodontists specialize in restoring and
+              enhancing your smile with custom-crafted fixed dental
+              restorations, including crowns, bridges, and veneers. Using the
+              latest techniques and materials, we create aesthetically
+              pleasing and durable prosthetic solutions that seamlessly blend
+              with your natural teeth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-2">
+            <nav id="sidebar">
+              <ul class="service-list-group">
+                <li class="list-group-item">
+                  <a href="#cosmetic">
+                    <img
+                      src="{% static 'img/services/service1.jpg' %} "
+                      alt="Cosmetic/Aesthetic"
+                      class="service-icon"
+                    />
+                    Cosmetic/Aesthetic
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#endodontics">
+                    <img
+                      src="{% static 'img/services/service2.jpg' %} "
+                      alt="Advanced Endodontics"
+                      class="service-icon"
+                    />
+                    Advanced Endodontics
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#implants">
+                    <img
+                      src="{% static 'img/services/service3.jpg' %} "
+                      alt="Dental Implants"
+                      class="service-icon"
+                    />
+                    Dental Implants
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#prosthodontics">
+                    <img
+                      src="{% static 'img/services/service4.jpg' %} "
+                      alt="Fixed Prosthodontics"
+                      class="service-icon"
+                    />
+                    Fixed Prosthodontics
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-lg-10">
+            <div class="section-title">
+              <h2>Our Services</h2>
+            </div>
+            <div class="row">
+              <section id="cosmetic">
+                <div class="container">
+                  <div
+                    class="col-lg-6 order-2 order-lg-1"
+                    data-aos="fade-right"
+                  >
+                    <h3>Cosmetic/Aesthetic</h3>
+                    <p>
+                      At Swastik Dental, we specialize in cosmetic/aesthetic
+                      dentistry services aimed at rejuvenating your smile and
+                      elevating your self-assurance. Our array of treatments
+                      spans from professional teeth whitening and porcelain
+                      veneers to discreet Invisalign® clear aligners and
+                      durable dental implants. With tailored treatment plans
+                      crafted to suit your individual needs and cutting-edge
+                      technology, we are dedicated to delivering outstanding
+                      outcomes that surpass expectations. Whether you seek to
+                      brighten your smile, correct dental flaws, or restore
+                      missing teeth, Swastik Dental promises premier care in a
+                      warm and inviting atmosphere.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="image col-lg-6 order-1 order-lg-2"
+                  style="
+                    background-image: url('{% static 'img/services/service1.jpg' %}');
+                  "
+                  data-aos="zoom-in"
+                ></div>
+              </section>
+
+              <section id="endodontics">
+                <div class="container">
+                  <h3>Advanced Endodontics</h3>
+                  <p>
+                    Experience top-tier care in advanced endodontics at
+                    Swastik Dental. Our skilled endodontists employ
+                    cutting-edge techniques to address complex root canal
+                    issues with precision and expertise. From root canal
+                    therapy to retreatment and apical surgery, we offer
+                    comprehensive solutions to save your natural teeth and
+                    alleviate discomfort. With a focus on patient comfort and
+                    satisfaction, we ensure a seamless experience throughout
+                    your treatment journey. Trust Swastik Dental for
+                    exceptional endodontic care that restores your oral health
+                    and preserves your smile's longevity.
+                  </p>
+                </div>
+                <div
+                  class="image col-lg-6 order-1 order-lg-2"
+                  style="
+                    background-image: url('{% static 'img/services/service1.jpg' %}');
+                  "
+                  data-aos="zoom-in"
+                ></div>
+              </section>
+
+              <section id="implants">
+                <div class="container">
+                  <h3>Dental Implants</h3>
+                  <p>
+                    Regain confidence in your smile with dental implants at
+                    Swastik Dental. Our renowned implant specialists utilize
+                    state-of-the-art technology to provide durable and
+                    lifelike tooth replacements that function and feel like
+                    natural teeth. Whether you need a single implant,
+                    implant-supported bridges, or full-arch restorations, we
+                    offer personalized solutions tailored to your unique
+                    needs. With meticulous attention to detail and a
+                    commitment to excellence, we strive to deliver superior
+                    outcomes and long-lasting results. Choose Swastik Dental
+                    for premier dental implant treatment that revitalizes your
+                    smile and enhances your quality of life.
+                  </p>
+                </div>
+                <div
+                  class="image col-lg-6 order-1 order-lg-2"
+                  style="
+                    background-image: url('{% static 'img/services/service1.jpg' %}');
+                  "
+                  data-aos="zoom-in"
+                ></div>
+              </section>
+
+              <section id="prosthodontics">
+                <div class="container">
+                  <h3>Fixed Prosthodontics</h3>
+                  <p>
+                    Experience the pinnacle of fixed prosthodontics at Swastik
+                    Dental. Our expert prosthodontists specialize in restoring
+                    and enhancing your smile with custom-crafted fixed dental
+                    restorations, including crowns, bridges, and veneers.
+                    Using the latest techniques and materials, we create
+                    aesthetically pleasing and durable prosthetic solutions
+                    that seamlessly blend with your natural teeth. Whether you
+                    require single-tooth restorations or full-mouth
+                    rehabilitation, we provide personalized care and
+                    meticulous attention to detail to ensure optimal function
+                    and aesthetics. Trust Swastik Dental for unparalleled
+                    fixed prosthodontic treatment that revitalizes your smile
+                    and restores your confidence.
+                  </p>
+                </div>
+                <div
+                  class="image col-lg-6 order-1 order-lg-2"
+                  style="
+                    background-image: url('{% static 'img/services/service1.jpg' %}');
+                  "
+                  data-aos="zoom-in"
+                ></div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+
+  <!-- End #main -->
+
+
+
+
+
+
+
+
+
+{%endblock%}
